@@ -12,7 +12,7 @@ function calcularIMC(peso, altura){
         else if (imc >= 30 && imc <= 34.9){
             return "Obesidade classe I"
         }
-        else if (imc >= 35 && imc <= 34.9){
+        else if (imc >= 35 && imc <= 39.9){
             return "Obesidade classe II"
         }
         else {
@@ -20,4 +20,7 @@ function calcularIMC(peso, altura){
         }
 }
 
-console.log(calcularIMC(95, 1.75))
+console.log(calcularIMC(50, 1.70))
+console.log(calcularIMC(68, 1.70))
+console.log(calcularIMC(85, 1.70))
+console.log(calcularIMC(110, 1.70))
