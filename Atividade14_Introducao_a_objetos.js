@@ -1,7 +1,5 @@
 function exibirPerfil (usuario){
 
-    
-
     let mensagemDeTexto = ""
     if (usuario.idade < 18){
         mensagemDeTexto = "Erro: Apenas maiores de idade"

@@ -1,12 +1,12 @@
 function converterCelsius (celsius, unidade){
 
     if (unidade === "F"){
-        const Fahrenheit = celsius * 1.8 + 32
-        return Fahrenheit.toFixed(2)    
+        const fahrenheit = celsius * 1.8 + 32
+        return fahrenheit.toFixed(2)    
     }
     else if (unidade === "K"){
-        const Kelvin = celsius + 273.15
-        return Kelvin.toFixed(2)
+        const kelvin = celsius + 273.15
+        return kelvin.toFixed(2)
     }
     else {
         return "Unidade inválida"

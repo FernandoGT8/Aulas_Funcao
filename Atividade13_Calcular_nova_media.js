@@ -1,4 +1,4 @@
-function calcularmedia (a, b, c){
+function calcularMedia (a, b, c){
 
     const media = (a + b + c) / 3
     let status = ""
@@ -15,6 +15,6 @@ function calcularmedia (a, b, c){
     return status
 }
 
-console.log(calcularmedia(8, 6, 10))
-console.log(calcularmedia(5, 5, 5))
-console.log(calcularmedia(5, 5, 4))
+console.log(calcularMedia(8, 6, 10))
+console.log(calcularMedia(5, 5, 5))
+console.log(calcularMedia(5, 5, 4))

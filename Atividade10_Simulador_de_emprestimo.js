@@ -3,9 +3,9 @@ function aprovarEmprestimo (salario, valorParcela, tempoTrabalho){
         return "Dados inválidos"
     }
 
-    const saldoEmprestimo = salario * 0.30
+    const parcelaMaxima = salario * 0.30
 
-    if (valorParcela <= saldoEmprestimo && tempoTrabalho >= 12){
+    if (valorParcela <= parcelaMaxima && tempoTrabalho >= 12){
         return "Empréstimo Aprovado"
     }
     else {
