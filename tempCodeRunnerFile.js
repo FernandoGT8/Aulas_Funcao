@@ -1,17 +1,7 @@
-const produtos = [
-    { nome: "Teclado", preco: 100 },
-    { nome: "Mouse", preco: 50 },
-    { nome: "Monitor", preco: 800 },
-    { nome: "Cabo USB", preco: 25 }
-]
+const numeros = [5, 12, 8, 20, 3]
 
-const produtosCaros = produtos.filter(function(produto){
-    return produto.preco > 50
-    const produtosComDesconto = produtos.map(function(produto){
-        return produto.preco * 0.9
-    })
+const maiores = numeros.filter(function(numero){
+    return numero > 10
 })
 
-
-
-console.log(produtosCaros)
+console.log(maiores)
